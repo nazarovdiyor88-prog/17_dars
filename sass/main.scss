@@ -1,0 +1,96 @@
+@import "general.scss";
+.header{
+    .container{
+        position: relative;
+    }
+    &__image{
+        position: absolute;
+        left: 6px;
+        top: 100px;
+        }
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 135px;
+        border: 2px solid red;
+        &__logo-image{
+            padding-left: 247px;
+            border: 2px solid red;
+        }    
+    }
+        &__box__list{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
+            margin-right: 136px;
+            &__item__link{
+                font-family: Mulish;
+                font-weight: 700;
+                font-size: 18px;
+                color: #1F1534;
+                line-height: 100%;
+                letter-spacing: 0%;    
+            }
+            &__item__linkone{
+                font-family: Mulish;
+                font-weight: 400;
+                font-size: 18px;
+                color: #1F1534;
+                line-height: 100%;
+                letter-spacing: 0%;
+                opacity: 50%;
+            }      
+        }
+        &__boxTwo{
+            display: flex;
+            flex-direction: column;
+            width: 445px;
+            margin-top: 186px;
+            margin-left: 246px;
+            &__title{
+                font-family: Mulish;
+                font-weight: 700;
+                font-size: 48px;
+                color: #000000;
+                line-height: 56px;
+                letter-spacing: 0%;
+                margin-bottom: 25px;
+            }
+            &__text{
+                font-family: Mulish;
+                font-weight: 300;
+                font-size: 21px;
+                color: #7D7987;
+                line-height: 32px;
+                letter-spacing: 0%;
+                margin-bottom: 45px;
+            }
+            &__btn{
+                width: 200px;
+                height: 56px;
+                border-radius: 55px;
+                background: #458FF6;
+                cursor: pointer;
+                border: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            &__link{
+                font-family: Mulish;
+                font-weight: 700;
+                font-size: 18px;
+                color: #FFFFFF;
+                line-height: 60px;
+                letter-spacing: 0%;
+            }
+
+        }
+        &__boxTwo__image{
+            position: absolute;
+            left: 800px;
+            top: 84px;
+        }
+}
