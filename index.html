@@ -17,8 +17,9 @@
                 <div class="header__box-logo">
                     <img src="images/logojon.svg" alt="" class="header__box__logo-image">
                 </div>
+                <div class="header__box__logo" onclick="logo()">X</div> 
                 <div class="header__boxOne">
-                    <ul class="header__box__list">
+                    <ul id="box__list" class="header__box__list">
                         <li class="header__box__list__item">
                             <a href="#" class="header__box__list__item__link">Home</a>
                         </li>
@@ -35,7 +36,7 @@
                             <a href="#" class="header__box__list__item__linkone">About us</a> 
                         </li>
                     </ul>
-                </div>   
+                </div>
             </div>
             <div class="header__boxTwo">
                 <h2 class="header__boxTwo__title">Virtual healthcare for you</h2>
@@ -46,7 +47,7 @@
                     <p class="header__boxTwo__link">Consult today</p>
                 </button>    
             </div>
-            <div>
+            <div class="header__box__three">
                 <img src="images/illustration.jpg" alt="" class="header__boxTwo__image">
             </div>
         </div>
@@ -54,8 +55,12 @@
     <nav class="wrapper">
         <div class="container">
             <div class="nav__box">
-                <img src="images/Vector.png" alt="" class="nav__box__image">
-                <img src="images/element (1).png" alt="" class="nav__box__imageone">
+                <div class="nav__box__imagess__one">
+                    <img src="images/Vector.png" alt="" class="nav__box__image">
+                </div>
+                <div class="nav__box__imagess">
+                    <img src="images/element (1).png" alt="" class="nav__box__imageone">
+                </div>
                 <div class="nav__box__boxone">
                     <h1 class="nav__box__boxone__title">Our services</h1>
                     <p class="nav__box__boxone__text">We provide to you the best choiches for you. 
@@ -252,5 +257,10 @@
             </div>
         </div>
     </footer>
+    <script>
+        function logo(){
+            document.getElementById("box__list").classList.toggle("active")
+        }
+    </script>
 </body>
 </html>

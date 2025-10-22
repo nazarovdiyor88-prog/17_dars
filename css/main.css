@@ -489,4 +489,130 @@
   color: #FFFFFF;
   line-height: 38px;
   letter-spacing: 0%;
+}
+
+@media (max-width: 600px) {
+  .header__box__list {
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    right: 0;
+    flex-direction: column;
+    background: #5f615f;
+    align-items: start;
+    display: none;
+    width: 100%;
+  }
+  .nav__box {
+    margin-right: 100px;
+  }
+  .header__box__list.active {
+    display: block;
+  }
+  .header__box__logo {
+    display: block;
+    margin-left: 250px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    background: #4089ED;
+    border-radius: 5px;
+  }
+  .header__box__list__item__link {
+    color: #fff;
+  }
+  .header__box__list__item__linkone {
+    color: #fff;
+    font-weight: 700;
+  }
+  .header__image {
+    position: absolute;
+    left: 600px;
+  }
+  .header__box__three {
+    position: absolute;
+    flex-direction: column;
+    top: 200px;
+    right: 1200px;
+    z-index: -1;
+    margin-top: 300px;
+  }
+  .nav__box__boxone {
+    margin-top: 300px;
+  }
+  .nav__box__boxone__text {
+    width: 500px;
+  }
+  .header__boxTwo__image {
+    width: 500px;
+    height: 450px;
+  }
+  .nav__box__boxtwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__page {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__page__box {
+    display: flex;
+    flex-direction: column;
+  }
+  .section__box {
+    width: 500px;
+    margin-left: 100px;
+  }
+  .section__box__one {
+    margin-left: 100px;
+  }
+  .section__image {
+    margin-left: 100px;
+  }
+  .section__box__two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .article__box__two {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  .article__box__one__title {
+    margin-left: 130px;
+  }
+  .footer__box {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__box__two {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav__box__imagess {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -1000px;
+  }
+  .subpages__image {
+    position: absolute;
+    left: -800px;
+  }
+  .nav__box {
+    margin-left: 50px;
+  }
+  .main__page__image {
+    position: absolute;
+    left: -800px;
+  }
 }/*# sourceMappingURL=main.css.map */
